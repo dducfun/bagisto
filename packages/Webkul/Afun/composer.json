@@ -1,0 +1,27 @@
+{
+    "name": "bagisto/laravel-attribute",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@webkul.com"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Afun\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Afun\\Providers\\ProductServiceProvider"
+            ],
+            "aliases": { }
+        }
+    },
+    "minimum-stability": "dev"
+}
